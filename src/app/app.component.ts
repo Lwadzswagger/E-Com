@@ -24,7 +24,7 @@ import { AppState } from './app.service';
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Index
       </a>
-      <a [routerLink]=" ['./home'] "
+      <a [routerLink]=" ['./homie'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Home
       </a>
@@ -52,14 +52,8 @@ import { AppState } from './app.service';
 
     <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
 
-    <footer>
-      <span>Allowance app by <a [href]="url"> TEAM KICK@ASS</a></span>
-      
-      <div style="margin-top: 100px;">
-        <a [href]="url">
-          <img [src]="aliensLogo" style="width:350px; height: auto;">
-        </a>
-      </div>
+    <footer style="background-color:dimgrey; height:620px;">
+     <div class="col-md-2"> this is a very long text for the sake of testing if this works or it doesnt</div>
     </footer>
   `
 })

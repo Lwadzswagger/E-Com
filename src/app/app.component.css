@@ -5,4 +5,14 @@ html, body{
 
 a.active {
   background-color: gray;
+
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+nav{background-color:dimgrey;
+    height:45px;
+    position: fixed;
 }
